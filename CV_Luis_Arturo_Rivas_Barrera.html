@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Luis Arturo Rivas Barrera</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #eaeaea;
+            color: #fff;
+        }
+
+        .header {
+            background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d'); /* Fondo de escritorio */
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #6610f2;
+            object-fit: cover;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 30px;
+            background-color: white;
+        }
+
+        .header-content {
+            margin-top: 120px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .header p {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #1f1f2e;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .left, .right {
+            padding: 30px;
+        }
+        .left {
+            width: 35%;
+            background-color: #6610f2;
+        }
+        .right {
+            width: 65%;
+            background-color: #2a2a40;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #fff;
+            border-bottom: 2px solid #888;
+            padding-bottom: 5px;
+        }
+        p, li {
+            margin: 8px 0;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        a {
+            color: #a0d8ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img class="profile-pic" src="https://i.imgur.com/dbrMUbY.jpg" alt="Foto de perfil">
+        <div class="header-content">
+            <h1>Luis Arturo Rivas Barrera</h1>
+            <p>Estudiante de Ingeniería en Software</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <h2>Perfil Profesional</h2>
+            <p>Soy estudiante de Ingeniería en Software, próximo a iniciar el sexto cuatrimestre de la carrera. 
+            Cuento con conocimientos en desarrollo web, bases de datos y programación orientada a objetos. Tengo experiencia en el desarrollo de proyectos cliente-servidor, 
+            en la implementación de APIs REST y en el despliegue de bases de datos utilizando servicios en la nube como AWS. Actualmente me encuentro en busca de una oportunidad para 
+            realizar mis prácticas profesionales, donde pueda seguir aprendiendo y contribuir al desarrollo de proyectos reales.</p>
+
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Trabajo en Equipo</li>
+                <li>Liderazgo</li>
+            </ul>
+
+            <h2>Contacto</h2>
+            <ul>
+                <li>Email: 202300183@upqroo.edu.mx</li>
+                <li>Teléfono: 9983713972</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <h2>Formación Académica</h2>
+            <p><strong>Ingeniería en Software</strong><br>
+            Universidad Politécnica de Quintana Roo<br>
+            2023 - Actualmente Estudiando 
+            Finalizado 5to cuatrimestre</p>
+
+            <h2>Habilidades Técnicas</h2>
+            <p><strong>Lenguajes de programación:</strong> JAVA, JavaScript, PHP</p>
+            <p><strong>Frameworks y Tecnologías:</strong> API REST, JWT</p>
+            <p><strong>Bases de datos:</strong> MySQL</p>
+            <p><strong>Lenguajes de marcado y hoja de estilo:</strong> HTML, CSS</p>
+
+            <h2>Proyectos Trabajados</h2>
+            <p><strong>Sistema de Eventos - Cliente/Servidor</strong><br>
+            Desarrollo de una API REST con autenticación mediante JSON Web Tokens (JWT) que proporciona diversos endpoints para gestionar datos. 
+            La API está implementada en JavaScript y es consumida desde un cliente TypeScript en React.<br>
+            <a href="https://github.com/waryduchess/GalaPerfecta-cliente-servidor-" target="_blank">Ver en GitHub</a></p>
+        </div>
+    </div>
+</body>
+</html>
